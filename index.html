@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Good Website</title>
-    </head>
-    <body>
-            <h1>Welcome to Seth's first website!</h1>
-            <p>Few hours. Not too shabby!
-            Taking these people's money is a real possibility!</p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, p {
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            background: #0070ba;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Support Our Cause</h1>
+        <p>Every donation helps us make a difference.
+        <img src="https://static01.nyt.com/images/2018/06/06/us/politics/06dc-trump-2/06dc-trump-2-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="Image must have too much freedom...">
+      </p>
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="business" value="8TWRZ8ETDQ7UN" />
+<input type="hidden" name="no_recurring" value="0" />
+<input type="hidden" name="item_name" value="Letting you whine." />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+    </div>
+</body>
 </html>
